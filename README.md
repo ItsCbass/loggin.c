@@ -8,6 +8,8 @@
 
 > ⚠️ **Note**: This is a **work in progress** and essentially a **toy project** for learning and experimentation. Nothing serious! 🧸
 
+![Example Output](exaample.png)
+
 </div>
 
 <!--------------------------------------------------------------------------->
