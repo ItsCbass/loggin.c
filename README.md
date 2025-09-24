@@ -6,6 +6,8 @@
 
 *A lightweight, thread-safe logging library for C applications with support for multiple output destinations, customizable formatting, and color output.*
 
+> ⚠️ **Note**: This is a **work in progress** and essentially a **toy project** for learning and experimentation. Nothing serious! 🧸
+
 </div>
 
 <!--------------------------------------------------------------------------->
@@ -22,6 +24,31 @@
 - **🚀 Easy Integration**: Simple API with convenient macros
 - **📦 Zero Dependencies**: Only uses standard C library functions
 - **🎯 Performance Optimized**: Efficient implementation with minimal overhead
+
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------- VISUAL EXAMPLE --------------------------------->
+
+## 🎨 What It Looks Like
+
+Here's a sample of the beautiful colored output your logging library produces:
+
+```
+Logging to both console and file 'example.log'
+
+00:00:27 INFO  examples/file_output_example.c:51: Application started
+00:00:27 WARN  examples/file_output_example.c:53: This is a warning message
+00:00:27 ERROR examples/file_output_example.c:54: An error occurred: File not found
+
+Log level set to WARN - only warnings and above will be logged to file:
+
+00:00:27 WARN  examples/file_output_example.c:64: This warning should appear in file
+00:00:27 ERROR examples/file_output_example.c:65: This error should appear in file
+00:00:27 INFO  examples/file_output_example.c:75: Application shutting down
+00:00:27 DEBUG examples/file_output_example.c:76: Cleanup completed
+```
+
+*Note: In your terminal, each log level will be beautifully color-coded! 🎨*
 
 <!--------------------------------------------------------------------------->
 
