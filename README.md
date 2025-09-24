@@ -290,8 +290,20 @@ lib/                          # Root directory for all library code
 
 **Developed with ❤️ by [Sebastian Rivera](https://github.com/ItsCbass)**
 
+*Following the Maysara Code Style: "Code as Art, Structure as Poetry"*
+
 [![GitHub](https://img.shields.io/badge/GitHub-ItsCbass-black?style=for-the-badge&logo=github)](https://github.com/ItsCbass/loggin.c)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+---
+
+### 📚 Code Style Reference
+
+This project follows the **Maysara Code Style** guidelines for beautiful, organized, and maintainable code.
+
+**Maysara Code Style Repository:** [https://github.com/maysara-elshewehy/MCS](https://github.com/maysara-elshewehy/MCS)
+
+*"Code as Art, Structure as Poetry"* - A philosophy that treats code not just as a functional tool, but as an artistic expression that prioritizes both aesthetic beauty and technical excellence.
 
 </div>
 
